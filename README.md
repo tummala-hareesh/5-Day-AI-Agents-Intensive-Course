@@ -22,13 +22,13 @@ Every section contains **Topic** for the day, **Notes** prepared during the day,
 - [Link to AI Studio - Google](https://aistudio.google.com/api-keys)
 
 ## 🛠️ Setup Environment for the Course
-- ✅ **Kaggle account:** Sign up for a Kaggle account and learn how Notebooks work. Make sure to phone verify your account, it’s necessary for the course’s codelabs.
-- ✅ **AI Studio account:** Sign up for an AI Studio account and ensure you can generate an API key.
-- ✅ **Kaggle Discord:** Sign up for a Discord account and join us on the Kaggle Discord server. We have the following channels dedicated to this event:
-    - ✅ **#5dgai-announcements:** find official course announcements and livestream recordings.
-    - ✅ **#5dgai-introductions:** introduce yourself and meet other participants from around the world.
-    - ✅ **#5dgai-question-forum:** Discord forum-style channel for asking questions and discussions about the assignments.
-    - ✅ **#5dgai-general-chat:** a general channel to discuss course materials and network with other participants. 
+- [x] **Kaggle account:** Sign up for a Kaggle account and learn how Notebooks work. Make sure to phone verify your account, it’s necessary for the course’s codelabs.
+- [x] **AI Studio account:** Sign up for an AI Studio account and ensure you can generate an API key.
+- [x] **Kaggle Discord:** Sign up for a Discord account and join us on the Kaggle Discord server. We have the following channels dedicated to this event:
+    - [x] **#5dgai-announcements:** find official course announcements and livestream recordings.
+    - [x] **#5dgai-introductions:** introduce yourself and meet other participants from around the world.
+    - [x] **#5dgai-question-forum:** Discord forum-style channel for asking questions and discussions about the assignments.
+    - [x] **#5dgai-general-chat:** a general channel to discuss course materials and network with other participants. 
 
 ## 🗓️ Day-1
 - **Topic**: Foundational Large Language Models & Prompt Engineering
