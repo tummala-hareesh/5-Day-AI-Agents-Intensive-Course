@@ -18,37 +18,37 @@ Every section contains **Topic** for the day, **Notes** prepared during the day,
 
 ## 🗓️ Day-1
 - **Topic**: Foundational Large Language Models & Prompt Engineering
-- **Notes**: 
+- **Notes**: [Notes on Day-1](https://github.com/tummala-hareesh/5-Day-AI-Agents-Intensive-Course/blob/main/notes/day-1-notes.md)
 - **Outcomes**: 
 - **Media**: 
 
 ## 🗓️ Day-2
 - **Topic**: Embeddings and Vector Stores/Databases
-- **Notes**: 
+- **Notes**: [Notes on Day-2](https://github.com/tummala-hareesh/5-Day-AI-Agents-Intensive-Course/blob/main/notes/day-2-notes.md)
 - **Outcomes**: 
 - **Media**: 
 
 ## 🗓️ Day-3
 - **Topic**: Generative Agents
-- **Notes**: 
+- **Notes**: [Notes on Day-3](https://github.com/tummala-hareesh/5-Day-AI-Agents-Intensive-Course/blob/main/notes/day-3-notes.md)
 - **Outcomes**: 
 - **Media**: 
 
 ## 🗓️ Day-4
 - **Topic**: Domain-Specific LLMs
-- **Notes**: 
+- **Notes**: [Notes on Day-4](https://github.com/tummala-hareesh/5-Day-AI-Agents-Intensive-Course/blob/main/notes/day-4-notes.md)
 - **Outcomes**: 
 - **Media**: 
 
 ## 🗓️ Day-5
 - **Topic**: MLOps for Generative AI
-- **Notes**: 
+- **Notes**: [Notes on Day-5](https://github.com/tummala-hareesh/5-Day-AI-Agents-Intensive-Course/blob/main/notes/day-5-notes.md)
 - **Outcomes**: 
 - **Media**: 
 
 ## 🗓️ Capstone Project
-- **Topic**: 
-- **Notes**: 
+- **Topic**: NAME
+- **Notes**: [Notes on Capstone Project](https://github.com/tummala-hareesh/5-Day-AI-Agents-Intensive-Course/blob/main/notes/capstone-project-notes.md)
 - **Outcomes**: 
 - **Media**: 
 
