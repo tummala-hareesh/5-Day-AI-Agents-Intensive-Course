@@ -15,6 +15,7 @@ Every section contains **Topic** for the day, **Notes** prepared during the day,
 ## 🔗 Important Links:
 - [Link to Course Registration - Google](https://rsvp.withgoogle.com/events/google-ai-agents-intensive_2025/home)
 - [Link to Course - Kaggle](https://www.kaggle.com/learn-guide/5-day-agents) 
+- [Link to Live Stream Sessions](https://www.youtube.com/watch?v=ZaUcqznlhv8&list=PLqFaTIg4myu9r7uRoNfbJhHUbLp-1t1YE)
 
 ## 🗓️ Day-1
 - **Topic**: Foundational Large Language Models & Prompt Engineering
