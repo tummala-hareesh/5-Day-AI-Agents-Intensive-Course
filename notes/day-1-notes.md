@@ -16,7 +16,7 @@
 ## Assignment
 Complete the Unit 1 – “Introduction to Agents”:
 - [x] Listen to the summary podcast episode for this unit, created by NotebookLM.
-- [] To complement the podcast, read the “Introduction to Agents” whitepaper
+- [x] To complement the podcast, read the “Introduction to Agents” whitepaper
 - [] Complete these codelabs on Kaggle:
     - [] Build your first agent using Gemini and ADK.
     - [] Build your first multi-agent systems using ADK.
@@ -35,25 +35,25 @@ Complete the Unit 1 – “Introduction to Agents”:
 
 - Agent Anatomy 
     - 3 core parts
-        - **model**, the brain 
-            - model = LLM 
-            - the core langugage model, the reasoning engine
-            - key responsibilties: 
-                - managing context 
-                - i.e., decides the input matters for the next though process
-            - model thinks, but needs tools to perform actions
-            - crucial responsibility:
-                - model reasons about which tool is needed for current step of the plan
+    - **model**, the brain 
+        - model = LLM 
+        - the core langugage model, the reasoning engine
+        - key responsibilties: 
+            - managing context 
+            - i.e., decides the input matters for the next though process
+        - model thinks, but needs tools to perform actions
+        - crucial responsibility:
+            - model reasons about which tool is needed for current step of the plan
 
-        - **tools**, the hands
-            - connections of outside world or internal systems 
-            - Ex: APIs, code functions, ways to access DBs, vector scores
-        - **orchestration layer**, the conductor pulling all together
-            - calls the tool decided by the model
-            - manages: 
-                - operational loop
-                - keep track of memory or state
-                - executing the reasoning strategy, like chain of thought or react, common for agents
+    - **tools**, the hands
+        - connections of outside world or internal systems 
+        - Ex: APIs, code functions, ways to access DBs, vector scores
+    - **orchestration layer**, the conductor pulling all together
+        - calls the tool decided by the model
+        - manages: 
+            - operational loop
+            - keep track of memory or state
+            - executing the reasoning strategy, like chain of thought or react, common for agents
     - Each step of the loop: Think, Act, Observe cycle.
     
 - Complexity of Agents 
@@ -140,7 +140,22 @@ Complete the Unit 1 – “Introduction to Agents”:
         - PROD ready !!!!
 
 
-
+### Introduction to Agents - Whitepaper
+- Link to whitepaper: https://www.kaggle.com/whitepaper-introduction-to-agents
+- `Agents are natural evolution of LLM, made useful in software`. 
+- For years, focus was on **models** that excel at passive, discrete tasks:
+    - anwering a question
+    - translating text
+    - generating an image from prompt
+    - this paradigm needs constant human direction at every step 
+- Moving towards "Autonomous problem solving and task execution"
+- New Frontier - "AI Agents"
+- What is an AI Agent? 
+    - Not a simple static model in AI workflow
+    - it's a complete application , making plans and taking actions to achieve goals.
+    - Combines LLMs ability to reason with practical ability to act, allowing it to handle complex tasks. 
+    - Critically, Agents can work on their own. 
+    - 
 
          
 
