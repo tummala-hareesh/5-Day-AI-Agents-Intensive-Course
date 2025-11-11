@@ -2,12 +2,15 @@
 This repo has been created while attending **[AI Agents Course](https://www.kaggle.com/learn-guide/5-day-agents)** organized by Kaggle with Google. This course is spread across 5 days, with each day dedicated to a specific Agent related topic. 
 
 # Table of Contents
-1. [Day-1 learning](#Day-1)
-2. [Day-2 learning](#Day-2)
-3. [Day-3 learning](#Day-3)
-4. [Day-4 learning](#Day-4)
-5. [Day-5 learning](#Day-5)
-6. [Capstone project](#Capstone-project)
+1. [How to Read this document?](#-how-to-read-this-self-reflections-document)
+2. [Important Links](#-important-links)
+3. [Setup Enviroment for the Course](#️-setup-environment-for-the-course) 
+4. [Day-1 learning](#️-day-1)
+5. [Day-2 learning](#️-day-2)
+6. [Day-3 learning](#️-day-3)
+7. [Day-4 learning](#️-day-4)
+8. [Day-5 learning](#️-day-5)
+9. [Capstone project](#️-capstone-project)
 
 ## 📖 How to read this (self-reflections) document? 
 Every section contains **Topic** for the day, **Notes** prepared during the day, **Outcomes** from the learning process, and, maybe, social **Media** posts that I write about the days outcome. Happy Learning! 
@@ -16,6 +19,15 @@ Every section contains **Topic** for the day, **Notes** prepared during the day,
 - [Link to Course Registration - Google](https://rsvp.withgoogle.com/events/google-ai-agents-intensive_2025/home)
 - [Link to Course - Kaggle](https://www.kaggle.com/learn-guide/5-day-agents) 
 - [Link to Live Stream Sessions](https://www.youtube.com/watch?v=ZaUcqznlhv8&list=PLqFaTIg4myu9r7uRoNfbJhHUbLp-1t1YE)
+
+## 🛠️ Setup Environment for the Course
+- ✅ **Kaggle account:** Sign up for a Kaggle account and learn how Notebooks work. Make sure to phone verify your account, it’s necessary for the course’s codelabs.
+- ✅ **AI Studio account:** Sign up for an AI Studio account and ensure you can generate an API key.
+- ✅ **Kaggle Discord:** Sign up for a Discord account and join us on the Kaggle Discord server. We have the following channels dedicated to this event:
+    - ✅ **#5dgai-announcements:** find official course announcements and livestream recordings.
+    - ✅ **#5dgai-introductions:** introduce yourself and meet other participants from around the world.
+    - ✅ **#5dgai-question-forum:** Discord forum-style channel for asking questions and discussions about the assignments.
+    - ✅ **#5dgai-general-chat:** a general channel to discuss course materials and network with other participants. 
 
 ## 🗓️ Day-1
 - **Topic**: Foundational Large Language Models & Prompt Engineering
