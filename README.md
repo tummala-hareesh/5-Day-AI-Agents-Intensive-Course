@@ -19,6 +19,7 @@ Every section contains **Topic** for the day, **Notes** prepared during the day,
 - [Link to Course Registration - Google](https://rsvp.withgoogle.com/events/google-ai-agents-intensive_2025/home)
 - [Link to Course - Kaggle](https://www.kaggle.com/learn-guide/5-day-agents) 
 - [Link to Live Stream Sessions](https://www.youtube.com/watch?v=ZaUcqznlhv8&list=PLqFaTIg4myu9r7uRoNfbJhHUbLp-1t1YE)
+- [Link to AI Studio - Google](https://aistudio.google.com/api-keys)
 
 ## 🛠️ Setup Environment for the Course
 - ✅ **Kaggle account:** Sign up for a Kaggle account and learn how Notebooks work. Make sure to phone verify your account, it’s necessary for the course’s codelabs.
