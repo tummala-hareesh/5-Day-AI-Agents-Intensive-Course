@@ -31,31 +31,31 @@ Every section contains **Topic** for the day, **Notes** prepared during the day,
     - [x] **#5dgai-general-chat:** a general channel to discuss course materials and network with other participants. 
 
 ## 🗓️ Day-1
-- **Topic**: Foundational Large Language Models & Prompt Engineering
+- **Topic**: Introduction to Agents
 - **Notes**: [Link to Day-1 notes](https://github.com/tummala-hareesh/5-Day-AI-Agents-Intensive-Course/blob/main/notes/day-1-notes.md)
 - **Outcomes**: 
 - **Media**: 
 
 ## 🗓️ Day-2
-- **Topic**: Embeddings and Vector Stores/Databases
+- **Topic**: Agent Tools and Interoperability with MCP
 - **Notes**: [Link to Day-2 notes](https://github.com/tummala-hareesh/5-Day-AI-Agents-Intensive-Course/blob/main/notes/day-2-notes.md)
 - **Outcomes**: 
 - **Media**: 
 
 ## 🗓️ Day-3
-- **Topic**: Generative Agents
+- **Topic**: 
 - **Notes**: [Link to Day-3 notes](https://github.com/tummala-hareesh/5-Day-AI-Agents-Intensive-Course/blob/main/notes/day-3-notes.md)
 - **Outcomes**: 
 - **Media**: 
 
 ## 🗓️ Day-4
-- **Topic**: Domain-Specific LLMs
+- **Topic**: 
 - **Notes**: [Link to Day-4 notes](https://github.com/tummala-hareesh/5-Day-AI-Agents-Intensive-Course/blob/main/notes/day-4-notes.md)
 - **Outcomes**: 
 - **Media**: 
 
 ## 🗓️ Day-5
-- **Topic**: MLOps for Generative AI
+- **Topic**: 
 - **Notes**: [Link to Day-5 notes](https://github.com/tummala-hareesh/5-Day-AI-Agents-Intensive-Course/blob/main/notes/day-5-notes.md)
 - **Outcomes**: 
 - **Media**: 

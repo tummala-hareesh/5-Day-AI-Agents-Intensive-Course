@@ -143,21 +143,158 @@ Complete the Unit 1 – “Introduction to Agents”:
 ### Introduction to Agents - Whitepaper
 - Link to whitepaper: https://www.kaggle.com/whitepaper-introduction-to-agents
 - `Agents are natural evolution of LLM, made useful in software`. 
+
 - For years, focus was on **models** that excel at passive, discrete tasks:
     - anwering a question
     - translating text
     - generating an image from prompt
     - this paradigm needs constant human direction at every step 
-- Moving towards "Autonomous problem solving and task execution"
+
 - New Frontier - "AI Agents"
-- What is an AI Agent? 
-    - Not a simple static model in AI workflow
-    - it's a complete application , making plans and taking actions to achieve goals.
-    - Combines LLMs ability to reason with practical ability to act, allowing it to handle complex tasks. 
-    - Critically, Agents can work on their own. 
-    - 
+    - Moving towards "Autonomous problem solving and task execution"
+    - What is an AI Agent? 
+        - Not a simple static model in AI workflow
+        - it's a complete application , making plans and taking actions to achieve goals.
+        - Combines LLMs ability to reason with practical ability to act, allowing it to handle complex tasks. 
+        - Critically, Agents can work on their own. 
 
-         
+- This documents are `formal guide` for: 
+    - Developers
+    - Architects
+    - Product Leaders (POCs to Production Grade Agentic Systems)
+    - New generation agentic systems: can reason, act, and observe to accomplish goals. 
 
+#### Core Anatomy 
+- `AI Agent` is combination of 3 essential parts
+    - **Model - for reasoning**
+        - The Brain 
+        - Core langugae model - LM or foundational model = central reasoning engine: 
+            - to process information
+            - evaluate options 
+            - make decisions 
+        - Types of model 
+            - General pupose 
+            - fine-tuned
+            - multimodal
+        - Ultimate curator of Input context window for LM
+    - **Tools - for actions**
+        - The Hands
+        - Connects Agent's reasoning to outside world
+        - Enables actions beyond text generation
+        - An Agentic System allows: 
+            - LM to plan which tools to use 
+            - execute the tool
+            - puts the tools results to context window for next LM call. 
+    - **Orchestration layer - for governance** 
+        - The Nervous System 
+        - The governing process that manages the agent's operational loop
+        - It handles:
+            - Planning
+            - memory (state)
+            - reasoning strategy execution
+        - Uses prompting framework and reasoning techniques (like, Chain-of-Thought or ReAct)
+        - Breaks down complex task into multiple simple steps and decide when to think vs use tool. 
+        - Responsible to give agent memory to "remember"
+    - **Deployment**
+        - The body and legs
+        - PROD deployment  is reliable and accessible service
+        - Needs hosting agent on secure, scalable server, and interating it with essential production services for monitoring, logging and managment. 
+        - After being deployed, agents can be accessed:
+            - by user via GUI
+            - by other agents via A2A protocol
+
+    - Prompt/Context Engineering 
+        - LLMs capacity to anything vs do a specific thing reliably and perfectly. 
+        - For Debugging, `Agent Ops` is crucial.
+
+#### Agentic Problem Sovling Process
+
+![Agentic AI Problem Solving Process](../images/agentic_ai_problem_solving.png)
+
+- Agent operates on a continous, cyclical process to achieve its objective. 5 fundamental steps as discussed in `Agentic System Design` book: 
+    - 1. Get the Mission 
+        - Process in initiated by specific, high-level goal
+        - Provided by user or an automated trigger
+    - 2. Scan the Scene
+        - Agent perceives the env. to get context
+            - Orchestration layer accessing it's resources 
+    - 3. Think it Through 
+        - Agent's core think loop, driven by reasoning model
+        - Agent analyzes the Mission (Step 1.) against the scene (Step 2.) and devises a plan 
+        - Not single, but, chain of reasonings
+    - 4. Take Action 
+        - Orchestration layer, executes the 1st concrete step of the plan 
+        - By selecting and invoking appropriate tool.
+    - 5. Observe and Iterate
+        - Agent observe outcomes of the action
+        - Information is added to context or memory
+
+
+#### A Taxonomy of Capabilites
+![Agentic Systems in 5 steps](../images/agentic_systems_in_5steps.png)
+
+- 5 Levels: 
+    - Level 0: The Core Reasoning System
+    - Level 1: The Connected Problem-Solver
+    - Level 2: The Strategic Problem-Solver
+    - Level 3: The Collaborative Multi-Agent System
+    - Level 4: The Self-Evolving System
+
+
+#### Architecture Design 
+- Practical design considerations for each component, from model selection to tool implementation
+- 3 Core architecture: 
+    - Model: The “Brain” of your AI Agent
+    - Tools: The "Hands" of your AI Agent 
+        - Few main types of agent builders
+        - `Retrieving Information: Grounding in Reality`
+            - Most foundational tool 
+            - Accessing up-to-date information: 
+                - RAG gives ability to query external knowledge, often stored in vector DB or Knowledge Graphs
+                - internal company documents to web knowledge via Google search
+            - For structured data, NL2SQL tools 
+            - By looking things before answering reducing hallucinations. 
+        - `Executing Actions: Changing the World`
+            - True power: from reading to doing 
+            - APIs and functions as tools, agents can send emails, scheudule a meeting, or update customer record
+            - Agent can alos use HITL (Human in the Loop) in workflow for confirmation. 
+        - `Function Calling: Connecting Tools to your Agent`
+            - For function calling, agent needs: secure connection, and clear instruction, orchestration
+            - Standards link OpenAPI specification gives: 
+                - an agent  structured contract - tools purpose, req. parameters, and its expected reponse
+                - For simple discovery, Model Context Protocal (MCP) is popular
+                - Gemini with native google search, function invocation happens as part of LP call. 
+    - The Orchestration Layer
+
+
+#### Building for Production 
+- Agent Ops disciple needs to evaluate, debug, secure, and scale agentic systems - single system to fleet with enterprise governance. 
+- ADK - Agent Development Kit
+    - deep control 
+    - customizability 
+    - integration capabilities
+- Vertex AI Agent Engine
+    - https://cloud.google.com/vertex-ai/generative-ai/docs/agent-engine/overview
+    - Agent Engine 
+    - Agent Frameworks 
+    - Tools 
+    - Models 
+
+![vertex AI Agent Engine Builder](../images/vertex_ai_agent_builder.png)
+
+- Agent Ops 
+    - disciplined, structured approach to managing this new reality.
+    - transition from traditional, deterministic software to stochastic, agentic system needs new operational philosophy
+    - agent's response is probabilistic by design.
+    - natural evolution of DevOps and MLOps
+    - challenges of building, deploying, and governing AI agents, turning unpredictability from a liability into a managed, measurable,
+and reliable feature.
+    - Deep-dive on: 
+        - Measure What Matters: Instrumenting Success Like an A/B Experiment
+        - Quality Instead of Pass/Fail: Using a LM Judge
+        - Metrics-Driven Development: Your Go/No-Go for Deployment
+        - Debug with OpenTelemetry Traces: Answering "Why?"
+        - Cherish Human Feedback: Guiding Your Automation
+        - Agent Interoperability
 
 
