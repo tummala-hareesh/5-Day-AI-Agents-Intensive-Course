@@ -33,7 +33,7 @@ Every section contains **Topic** for the day, **Notes** prepared during the day,
 ## 🗓️ Day-1
 - **Topic**: Introduction to Agents
 - **Notes**: [Link to Day-1 notes](https://github.com/tummala-hareesh/5-Day-AI-Agents-Intensive-Course/blob/main/notes/day-1-notes.md)
-- **Outcomes**: 
+- **Outcomes**: 3 Component AI Agent, "Think, Act, Observe" loop, 5 levels of agent complexity, guides towards building and working with autonomous entities.
 - **Media**: 
 
 ## 🗓️ Day-2
