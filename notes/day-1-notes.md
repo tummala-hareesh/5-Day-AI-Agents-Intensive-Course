@@ -297,4 +297,18 @@ and reliable feature.
         - Cherish Human Feedback: Guiding Your Automation
         - Agent Interoperability
 
+### Review Agents examples (TO DO)
+- TO DO 
 
+### Conclusions
+- Formal framework for building agents, prod ready architectures 
+- Agent into 3 components: Model, Tools, Orchestration Layer 
+- Continuous "Think, Act, Observe" loop
+- 5 levels of agents based on complexity
+- We should guide, constrain and debug an autonomous entity 
+- Success is not just in initial prompt alone; 
+    - in the engineer rigor applied to entire system; 
+    - in robust tool contracts; 
+    - resilient error handling; 
+    - sophisticated context management; 
+    - comprehensive evaluation
