@@ -8,8 +8,12 @@
 - Security Risks: Shadowing & Dynamics injection
 
 ## Live-Session 
-- 
-
+- Deterministic Frameworks - gaurntee is needed
+- Use schema approach for Agent-2-Agent calls
+- Instruct Agents to handle Error cases. 
+- Documentation is key
+- Singleton Agent vs Internet of Agents for Enterprise? Think...
+- Super-Intelligence is a possiblity
 
 ## CodeLabs
 - 

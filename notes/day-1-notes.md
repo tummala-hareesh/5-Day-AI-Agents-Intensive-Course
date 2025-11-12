@@ -9,9 +9,65 @@
 - Build 1st AI Agent
     - Use ADK
     - Use google search for live results 
+    - https://www.kaggle.com/code/kaggle5daysofai/day-1a-from-prompt-to-action
+    - https://www.kaggle.com/code/naneen1989/day-1a-from-prompt-to-action/edit
+    
+
 - Build 1st multi-agent system
     - Create team of specialized agents
+        - simple, specialized agents that collaboarte, just like real-world
+        - Each agent has 1 clear job
+        - Easier to build, test, and more powerful and reliable
     - Explore different architecture patterns
+        - Sequential
+        - Parallel 
+        - Loop
+    - Ex-1: Research & Summarization System 
+        - Research Co-ordinator - Orchestrate a workflow
+        - Research Agent - Searches for information using Google Search 
+        - Summarizer Agent - Creates concise summaries from research findings
+        - Relied on `Detailed Instruction Prompt`
+    - **Sequential Workflows - The Assembly Line**
+        - `Detailed instruction prompts` can be unreliable. LLM can decide to skip a step and run them in wrong order, leading to unpredictable results. 
+        - Solution: `A Fixed Pipeline`
+            - Tasks in a guaranteed, specific order, use **SequentialAgent**
+            - Acts like assembly line, running each sub-agent in exact order 
+            - Output of agent1 becomes input for agent2. 
+        - **Architecture: Blog Post Creation Pipeline**
+        - Ex-2: Blog Post Creation with Sequential Agents 
+            - Outline Agent - Creates a blog outline for a given topic
+            - Writer Agent - Writes a blog post
+            - Editor Agent - Edits a blog post draft for clarify and structure
+    - **Parallel worflows - Independent researcher**
+        - `Sequential workflow` is an assembly line
+        - For tasks that are not sequentially depedent, `concurrent execution` helps. 
+        - Use Parallel when:
+            - Tasks are independent
+            - Speed matters
+            - we can execute concurrently
+        - **Architecture: Multi-Topic Research**
+        - Ex-3: Parallel Multi-Topic Research 
+            - Tech Researcher - Researches AI/ML news and trends 
+            - Health Researcher - Researches recent medical news and trends
+            - Finance Researcher - Researches finance and fintech news and trends
+            - Aggregator Agent - Combines all research findings into a single summary.
+    - **Loop Workflows - The refinement cycle**
+        - `Sequential` and `Parallel` workflows produce their final output and then stop. One-shot approach isn't good for tasks that require refinement and quality control.
+        - `Iterative Refinement` 
+            - tasks needs to be improved through cycles of feedback and revision. 
+            - `LoopAgent` runs sets of sub-agents repeatedly until a specific condition is met or a maximum number of iterations is reached. 
+            - agent improves its own work.
+        - **Architecture: Story Writing & Critique Loop**
+        - Ex-4: Iterative Story Refinement
+            - Writer Agent - Writes a draft of a short story
+            - Critic Agent - Review and critiques the short story to suggest improvements.
+    - **Choosing the Right Pattern**
+        - Decision Tree: Which workflow pattern?
+    - https://www.kaggle.com/code/kaggle5daysofai/day-1b-agent-architectures
+    - https://www.kaggle.com/code/naneen1989/day-1b-agent-architectures/edit?fromFork=1
+
+![Choosing workflow patterns](../images/pattern_workflows.png)
+
 
 ## Assignment
 Complete the Unit 1 – “Introduction to Agents”:
