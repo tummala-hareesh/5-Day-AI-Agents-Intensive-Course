@@ -73,12 +73,12 @@
 Complete the Unit 1 – “Introduction to Agents”:
 - [x] Listen to the summary podcast episode for this unit, created by NotebookLM.
 - [x] To complement the podcast, read the “Introduction to Agents” whitepaper
-- [] Complete these codelabs on Kaggle:
-    - [] Build your first agent using Gemini and ADK.
-    - [] Build your first multi-agent systems using ADK.
-    - [] Make sure you phone verify your Kaggle account before starting, it's necessary for the codelabs.
-    - [] We also have a troubleshooting guide for the codelabs. Be sure to check there for solutions to common problems.
-    - [] Want to have an interactive conversation? Try adding the whitepapers to NotebookLM.
+- [x] Complete these codelabs on Kaggle:
+    - [x] Build your first agent using Gemini and ADK.
+    - [x] Build your first multi-agent systems using ADK.
+    - [x] Make sure you phone verify your Kaggle account before starting, it's necessary for the codelabs.
+    - [x] We also have a troubleshooting guide for the codelabs. Be sure to check there for solutions to common problems.
+    - [x] Want to have an interactive conversation? Try adding the whitepapers to NotebookLM.
 
 ### Summary Podcast Episode
 - Link to podcast episode: https://www.youtube.com/watch?v=zTxvGzpfF-g
@@ -196,7 +196,7 @@ Complete the Unit 1 – “Introduction to Agents”:
         - PROD ready !!!!
 
 
-### Introduction to Agents - Whitepaper
+### Whitepaper - Introduction to Agents 
 - Link to whitepaper: https://www.kaggle.com/whitepaper-introduction-to-agents
 - `Agents are natural evolution of LLM, made useful in software`. 
 
