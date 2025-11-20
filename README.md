@@ -39,7 +39,7 @@ Every section contains **Topic** for the day, **Notes** prepared during the day,
 ## 🗓️ Day-2
 - **Topic**: Agent Tools and Interoperability with MCP
 - **Notes**: [Link to Day-2 notes](https://github.com/tummala-hareesh/5-Day-AI-Agents-Intensive-Course/blob/main/notes/day-2-notes.md)
-- **Outcomes**: 
+- **Outcomes**: Tools, MCP, standard language to connect tools, rules and best practices, security implications
 - **Media**: 
 
 ## 🗓️ Day-3
